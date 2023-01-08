@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "PX4",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/**",
+                "/opt/ros/melodic/include/**",
+                "/opt/ros/noetic/include/**",
+                "${workspaceFolder}/Tools/sitl_gazebo/ancl_sls/RosControl/devel/include",
+                "${workspaceFolder}/Tools/sitl_gazebo/include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "cppStandard": "c++14",
+            "cStandard": "c11"
+        }
+    ],
+    "version": 4
+}
